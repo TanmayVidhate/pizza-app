@@ -3,7 +3,8 @@ import Button from "./Button.jsx";
 import Pizaa from "./Pizaa.jsx"
 
 const pizzaDatas = pizzaData;
-const numPizzas =  pizzaDatas
+const numPizzas =  pizzaDatas.length
+console.log()
 function Menu() {
 
     return (
