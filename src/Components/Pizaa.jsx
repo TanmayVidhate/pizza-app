@@ -3,7 +3,7 @@ let Pizaa = ({pizza}) => {
 
     return (
         <>
-            <li className='pizza'>
+            <li className={`pizza ${soldOut?"sold-out":""}`}>
                 <img src={photoName} alt={name} />
                 <div>
                     <h3>{name}</h3>
