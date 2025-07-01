@@ -1,4 +1,5 @@
 import { pizzaData } from "../../public/data.js"
+import Button from "./Button.jsx";
 import Pizaa from "./Pizaa.jsx"
 
 const pizzaDatas = pizzaData;
@@ -18,6 +19,7 @@ function Menu() {
                                     <Pizaa pizza={pizza} key={i} />
                                 ))
                             }
+                            <Button/>
                         </ul>
                     ) 
                     :
