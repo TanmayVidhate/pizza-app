@@ -1,4 +1,4 @@
-let Pizaa = ({ name, ingredients, price, photoName, soldOut }) => {
+let Pizaa = ({pizza :{ name, ingredients, price, photoName, soldOut }}) => {
     
     return (
         <>
