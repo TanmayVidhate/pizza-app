@@ -2,7 +2,7 @@ import { pizzaData } from "../../public/data.js"
 import Pizaa from "./Pizaa.jsx"
 
 const pizzaDatas = pizzaData;
-const numPizzas =  0
+const numPizzas =  pizzaDatas
 function Menu() {
 
     return (
