@@ -14,14 +14,16 @@ function Menu() {
                 <h2>Our Menu</h2>
                 {
                     numPizzas > 0 ? (
-                        <ul className='pizzas'>
-                            {(
-                                pizzaData.map((pizza, i) =>
-                                    <Pizaa pizza={pizza} key={i} />
-                                ))
-                            }
+                        <>
+                            <ul className='pizzas'>
+                                {(
+                                    pizzaData.map((pizza, i) =>
+                                        <Pizaa pizza={pizza} key={i} />
+                                    ))
+                                }
+                            </ul>
                             <Button/>
-                        </ul>
+                        </>    
                     ) 
                     :
                     (
