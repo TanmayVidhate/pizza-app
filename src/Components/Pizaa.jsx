@@ -1,6 +1,5 @@
-let Pizaa = ({pizza}) => {
-    let { name, ingredients, price, photoName, soldOut } = pizza
-
+let Pizaa = ({ name, ingredients, price, photoName, soldOut }) => {
+    
     return (
         <>
             <li className={`pizza ${soldOut?"sold-out":""}`}>
