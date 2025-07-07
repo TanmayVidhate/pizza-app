@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.css"
-export default function Header() {
+function Header() {
     return (
         <>
             <header className='header'>
@@ -9,3 +9,4 @@ export default function Header() {
         </>
     )
 }
+export default Header;
